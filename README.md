@@ -1,0 +1,2 @@
+# React useEffect setInterval Memory Leak
+This example demonstrates a common mistake in React's `useEffect` hook when using `setInterval`.  Forgetting to return a cleanup function from `useEffect` leads to memory leaks and unexpected behavior when the component unmounts.  The solution shows how to properly clean up the interval to avoid this issue.
